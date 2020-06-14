@@ -5,6 +5,9 @@
 2.- Index HEAD-- Aqui analiza los cambios hechos
 3.- Git area 
 
+**En git escibir los comandos con mayúsculas es decirle a Git: sé lo que hago, no me preguntes ni me des advertencias
+**Hacerlo en minúscula es el caso contrario: dame advertencias y preguntame si estoy seguro
+
 git init
 git status --- para saber el estatus de nuestro repositorio
 - Archivos no traqueados, que no han sido subidos al index area
@@ -21,4 +24,20 @@ clear -- para limpiar la consola
 git chekout ID_del_Commit
 git checout master --> Es el ultimo commit que hicimos
 Head --> Es el commit que estamos actualmente
+----------------RESET---------------------
+git reset --- Son saltos como los checkout, pero borran
+tipos:
+git reset --soft --> un reset suave, borra los commit que se hicieron despues del commit al que viajamos, pero sin borrar el codigo
+git retet --hard --> Fuerte, borra todo lo que sucedio despues al que llegamos
 
+--------------RAMAS------------------------
+git branch --- Ver las ramas
+git branch NombreDeLaRamma --- Crear una rama
+git checkout NombreDeLaRama --- Para cambiar de una rama a otra
+git merge NombreDeLaRamaQueFusionaremosConLaMaster --- Al parecer solo fusiona con la master
+git branch pruebas -d ---> Con esto borramos la branch 
+
+----------------GitHub--------------------
+git clone LinKDelProyecto.git
+git remote add origin LinkDelProyecto.git ---> para agregar el link del proyecto en GitHub si ya lo tuvieramos creado en local,
+git remote -v   ---> para verificar donde estamos conectados con el git
