@@ -1,0 +1,24 @@
+-------------Curso GiT-------------------
+
+Áreas de GIT
+1.- Directorio de trabajo --- 
+2.- Index HEAD-- Aqui analiza los cambios hechos
+3.- Git area 
+
+git init
+git status --- para saber el estatus de nuestro repositorio
+- Archivos no traqueados, que no han sido subidos al index area
+git add -> para agregar al indez area
+git add -A -> para agregar todos los archivos
+git rm --cached -> para quitar un archivo que no ha sido agregado
+----------------- Commits ---------------
+Commits: es un punto de salvado, para ir guardando cambios en el transcurso del tiempo
+git commit -m "Mensaje que describe el commit"
+git log --> para consultar la lista de commits que has hecho en el repositorio
+
+clear -- para limpiar la consola
+
+git chekout ID_del_Commit
+git checout master --> Es el ultimo commit que hicimos
+Head --> Es el commit que estamos actualmente
+
