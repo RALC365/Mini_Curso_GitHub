@@ -40,6 +40,8 @@ public class SandwichMealBuilder implements MealBuilder{
     //Este es un cambio que le acabod e hacer al archivo, solo para ver cómo trabaja Git
     //Y de pasi probar un poco de como trabaja VIM también
     //
+    // Ohhhhhhh ¡Qué genial! Acabo de cambiar de branch y también se hizo a nivel interno, o sea que, puedo tener un brach de "Producción" a nivel local y luego bajar solo la 
+    // branch master de github y luego fusionar mi branch Producción fusionarla, ver si falla localmente sin necesidad de generar conflictos en GitHub 
     //
     //Estos son los 2dos cambias que hago al archivo para ver quee tal.
 }
