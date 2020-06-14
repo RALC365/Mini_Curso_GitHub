@@ -36,4 +36,7 @@ public class SandwichMealBuilder implements MealBuilder{
     public Meal getModel() {
         return meal;
     }
+
+    //Este es un cambio que le acabod e hacer al archivo, solo para ver cómo trabaja Git
+    //Y de pasi probar un poco de como trabaja VIM también.
 }
