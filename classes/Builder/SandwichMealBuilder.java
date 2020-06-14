@@ -22,14 +22,19 @@ public class SandwichMealBuilder implements MealBuilder{
         meal.drink = drink;
     }
 
+    //Estos cambios lo hice solo para ver cómo se hacen los cambios dentro de líneas intermedias
+
+
     @Override
     public void addOffer(String offer) {
         meal.offer = offer;
+	//Comentario dentro del metodo
     }
 
     @Override
-    public void setPrice(double price) {
-        meal.price = price;
+    public void setPrice(double precio) {
+	//Comentarios dentro del metodo, se cambiaron los nombres de las variables de los parametros
+        meal.price = precio;
     }
 
     @Override
