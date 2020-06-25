@@ -24,6 +24,18 @@ clear -- para limpiar la consola
 git chekout ID_del_Commit
 git checout master --> Es el ultimo commit que hicimos
 Head --> Es el commit que estamos actualmente
+
+Modificando commits:
+git rebase -i HEAD~<numero de commits>
+- Amending commits: 0:40
+- Rewording commits: 2:04
+- Deleting commits: 4:14
+- Reordering commits: 5:34
+- Squashing commits: 7:04
+- Splitting commits: 9:09
+https://www.youtube.com/watch?v=ElRzTuYln0M
+
+
 ----------------RESET---------------------
 git reset --- Son saltos como los checkout, pero borran
 tipos:
@@ -41,3 +53,9 @@ git branch pruebas -d ---> Con esto borramos la branch
 git clone LinKDelProyecto.git
 git remote add origin LinkDelProyecto.git ---> para agregar el link del proyecto en GitHub si ya lo tuvieramos creado en local,
 git remote -v   ---> para verificar donde estamos conectados con el git
+
+
+Eliminar commit viejos (o aplastarlos)
+http://git.dokry.com/eliminar-los-viejos-commit-de-git.html
+
+https://www.it-swarm.dev/es/git/la-mejor-manera-de-aplastar-los-viejos-commits/822979858/
