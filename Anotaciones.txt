@@ -1,3 +1,10 @@
+-------------Zona de prueba-------------
+Tamos probando
+Añadiendo
+añadiendo mas
+mas mas mas...
+
+
 -------------Curso GiT-------------------
 
 Áreas de GIT
@@ -27,7 +34,7 @@ Head --> Es el commit que estamos actualmente
 
 Modificando commits:
 git rebase -i HEAD~<numero de commits>
-- Amending commits: 0:40
+- Amending commits: 0:40   ----> git commit --amend --no-edit
 - Rewording commits: 2:04
 - Deleting commits: 4:14
 - Reordering commits: 5:34
